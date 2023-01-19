@@ -176,7 +176,10 @@
 /* breakpoints */
 /* lg devices */
 @media screen and(max-width: 992px) {
-
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
 /* md devices */
