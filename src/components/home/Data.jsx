@@ -58,7 +58,10 @@ const Data = () => {
         <h3 className="home__subtitle">
             Desenvolvedor Frontend
         </h3>
-        <p className="home__description">Inserir descricao do perfil</p>
+        <p className="home__description">
+          Estudante de Análise e Desenvolvimento de Sistemas, 
+          apaixonado por programação e UI/UX Design. 
+        </p>
 
         <a href="#contact" className="button button--flex">
             Entre em contato
