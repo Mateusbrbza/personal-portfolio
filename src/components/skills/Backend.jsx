@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Backend = () => {
   return (
@@ -8,7 +8,7 @@ const Backend = () => {
         <div className="skills__box">
             <div className="skills__group">
                 <div className="skills__data">
-                    <box-icon name='badge'></box-icon>
+                    <i class='bx bx-badge'></i>
                     <div>
                         <h3 className="skills__name">SQL</h3>
                         <span className="skills__level">Básico</span>
@@ -16,7 +16,7 @@ const Backend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <box-icon name='badge'></box-icon>
+                    <i class='bx bx-badge'></i>
                     <div>
                         <h3 className="skills__name">Git</h3>
                         <span className="skills__level">Básico</span>
@@ -24,7 +24,7 @@ const Backend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <box-icon name='badge'></box-icon>
+                    <i class='bx bx-badge'></i>
                     <div>
                         <h3 className="skills__name">MongoDB</h3>
                         <span className="skills__level">Intermediário</span>
@@ -32,7 +32,7 @@ const Backend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <box-icon name='badge'></box-icon>
+                    <i class='bx bx-badge'></i>
                     <div>
                         <h3 className="skills__name">Express</h3>
                         <span className="skills__level">Básico</span>
@@ -42,7 +42,7 @@ const Backend = () => {
 
             <div className="skills__group">
                 <div className="skills__data">
-                    <box-icon name='badge'></box-icon>
+                    <i class='bx bx-badge'></i>
                     <div>
                         <h3 className="skills__name">Firebase</h3>
                         <span className="skills__level">Intermediário</span>
@@ -50,26 +50,10 @@ const Backend = () => {
                 </div>
 
                 <div className="skills__data">
-                    <box-icon name='badge'></box-icon>
+                    <i class='bx bx-badge'></i>
                     <div>
                         <h3 className="skills__name">Node</h3>
                         <span className="skills__level">Básico</span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <box-icon name='badge'></box-icon>
-                    <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <box-icon name='badge'></box-icon>
-                    <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
                     </div>
                 </div>
             </div>
@@ -78,4 +62,4 @@ const Backend = () => {
   )
 }
 
-export default Backend
+export default Backend;
