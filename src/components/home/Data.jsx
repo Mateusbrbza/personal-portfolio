@@ -59,7 +59,7 @@ const Data = () => {
             Desenvolvedor Frontend
         </h3>
         <p className="home__description">
-          Estudante de Análise e Desenvolvimento de Sistemas, 
+          Graduando em Análise e Desenvolvimento de Sistemas, 
           apaixonado por programação e UI/UX Design. 
         </p>
 
