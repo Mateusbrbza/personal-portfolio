@@ -1,0 +1,9 @@
+.services__container {
+    grid-template-columns: repeat(2, 320px);
+    justify-content:center;
+    column-gap: 2.4rem;
+}
+
+.services__modal {
+    display: none;
+}

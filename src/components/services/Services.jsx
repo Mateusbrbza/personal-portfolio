@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "./services.css";
 
 const Services = () => {
   return (
@@ -7,6 +8,7 @@ const Services = () => {
         <span className="section__subtitle">O que eu ofereço</span>
 
         <div className="services__container container grid">
+        <div className="services__content">
             <div>
                 <i className="uil uil-web-grid services__icon"></i>
                 <h3 className="services__title"
@@ -62,7 +64,7 @@ const Services = () => {
             </div>
         </div>
 
-        <div className="services__container container grid">
+        <div className="services__content">
             <div>
                 <i className="uil uil-arrow services__icon"></i>
                 <h3 className="services__title">
@@ -177,6 +179,7 @@ const Services = () => {
                 </div>
             </div>
         </div> */}
+        </div>
     </section>
   )
 }
