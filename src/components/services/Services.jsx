@@ -122,13 +122,13 @@ const Services = () => {
             </div>
         </div>
 
-        {/* definir posteriormente o que inserir */}
+        {/* desenvolvimento backend */}
         {/* <div className="services__container container grid">
             <div>
                 <i className="uil uil-edit services__icon"></i>
                 <h3 className="services__title">
-                    A definir <br />
-                    item.
+                    Desenvolvedor <br />
+                    Backend
                 </h3>
             </div>
 
@@ -151,28 +151,21 @@ const Services = () => {
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de interfaces para o usuário.
+                                Desenvolvimento de banco de dados em nuvem.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de páginas Web.
+                                Criacao de servicos na pagina web ou mobile.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de aplicativos Mobile.
-                            </p>
-                        </li>
-
-                        <li className="services__modal-service">
-                            <i className="uil uil-check-circle services__modal-icon"></i>
-                            <p className="services__modal-info">
-                                Faço o Design de experiência do usuário.
+                                Criacao de banco de dados para administrador.
                             </p>
                         </li>
                     </ul>
