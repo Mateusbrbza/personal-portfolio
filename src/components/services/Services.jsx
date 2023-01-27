@@ -18,7 +18,7 @@ const Services = () => {
 
             <span className="services__button">
             Ver Mais
-            <i className="uil uil-arrow-right services button-icon"></i>
+            <i className="uil uil-arrow-right services__button-icon"></i>
             </span>
 
             <div className="services__modal">
@@ -74,7 +74,7 @@ const Services = () => {
 
             <span className="services__button">
            Ver Mais 
-            <i className="uil uil-arrow-right services button-icon"></i>
+            <i className="uil uil-arrow-right services__button-icon"></i>
             </span>
 
             <div className="services__modal">
@@ -114,7 +114,7 @@ const Services = () => {
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Faço o Design de experiência do usuário.
+                                Design da experiência de interface para o usuário.
                             </p>
                         </li>
                     </ul>
@@ -134,7 +134,7 @@ const Services = () => {
 
             <span className="services__button">
             Ver Mais
-            <i className="uil uil-arrow-right services button-icon"></i>
+            <i className="uil uil-arrow-right services__button-icon"></i>
             </span>
 
             <div className="services__modal">
