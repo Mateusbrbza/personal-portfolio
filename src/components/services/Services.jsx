@@ -10,12 +10,12 @@ const Services = () => {
             <div>
                 <i className="uil uil-web-grid services__icon"></i>
                 <h3 className="services__title"
-                >Designer <br /> de produto
+                >Desenvolvedor <br /> de UI/UX
                 </h3>
             </div>
 
             <span className="services__button">
-            Ver Mais {" "}
+            Ver Mais
             <i className="uil uil-arrow-right services button-icon"></i>
             </span>
 
@@ -23,7 +23,7 @@ const Services = () => {
                 <div className="services__modal-content">
                     <i className="uil uil-times services__modal-close"></i>
 
-                    <h3 className="services__modal-title"></h3>
+                    <h3 className="services__modal-title">UI/UX Developer</h3>
                     <p className="services__modal-description">
                         Providenciando trabalho de qualidade 
                         para clientes e empresas.
@@ -71,7 +71,7 @@ const Services = () => {
             </div>
 
             <span className="services__button">
-           Ver Mais {" "} 
+           Ver Mais 
             <i className="uil uil-arrow-right services button-icon"></i>
             </span>
 
@@ -79,7 +79,9 @@ const Services = () => {
                 <div className="services__modal-content">
                     <i className="uil uil-times services__modal-close"></i>
 
-                    <h3 className="services__modal-title"></h3>
+                    <h3 className="services__modal-title">
+                        Desenvolvedor Frontend
+                    </h3>
                     <p className="services__modal-description">
                         Providenciando trabalho de qualidade 
                         para clientes e empresas.
@@ -118,8 +120,8 @@ const Services = () => {
             </div>
         </div>
 
-        {/* definirposteriormente o que inserir */}
-        <div className="services__container container grid">
+        {/* definir posteriormente o que inserir */}
+        {/* <div className="services__container container grid">
             <div>
                 <i className="uil uil-edit services__icon"></i>
                 <h3 className="services__title">
@@ -129,7 +131,7 @@ const Services = () => {
             </div>
 
             <span className="services__button">
-            Ver Mais {" "}
+            Ver Mais
             <i className="uil uil-arrow-right services button-icon"></i>
             </span>
 
@@ -174,7 +176,7 @@ const Services = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> */}
     </section>
   )
 }
