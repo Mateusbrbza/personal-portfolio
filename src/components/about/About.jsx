@@ -20,7 +20,7 @@ const About = () => {
             Estou estudando desenvolvimento web e mobile há um ano,
             utilizando React como ferramenta principal.
             Atualmente estou aberto a trabalho como freelancer e 
-            buscando emprego como desenvolvedor.
+            buscando emprego como Desenvolvedor Frontend.
           </p>
 
           <a download="" href={CV} className="button button--flex">

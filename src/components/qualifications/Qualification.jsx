@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Qualification = () => {
   return (
@@ -6,4 +6,4 @@ const Qualification = () => {
   )
 }
 
-export default Qualification
+export default Qualification;
