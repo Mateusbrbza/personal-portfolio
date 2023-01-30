@@ -51,10 +51,12 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">The Web Developer Bootcamp</h3>
+                <h3 className="qualification__title">
+                  React - The Complete Guide
+                  </h3>
                 <span className="span qualification__subtitle">Udemy</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 01/2022 - 06/2022
+                  <i className="uil uil-calendar-alt"></i> 06/2022 - 01/2023
                 </div>
               </div>
             </div>
@@ -67,7 +69,7 @@ const Qualification = () => {
                 </h3>
                 <span className="span qualification__subtitle">Rocketseat</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 06/2022 - 07/2022
+                  <i className="uil uil-calendar-alt"></i> 06/2022 - 08/2022
                 </div>
               </div>
 
@@ -87,10 +89,10 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">React - The Complete Guide</h3>
+                <h3 className="qualification__title">The Web Developer Bootcamp</h3>
                 <span className="span qualification__subtitle">Udemy</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 06/2022 - 01/2023
+                  <i className="uil uil-calendar-alt"></i> 01/2022 - 05/2022
                 </div>
               </div>
             </div>
