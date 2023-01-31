@@ -1,6 +1,27 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import "./contact.css";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_sscxyq9', 
+      'template_qlsu5za', 
+      form.current, 
+      'f5HsgYfUYqFX9olAt'
+      )
+      e.target.reset()
+      // .then((result) => {
+      //     console.log(result.text);
+      // }, (error) => {
+      //     console.log(error.text);
+      // });
+  };
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Entre em contato</h2>
@@ -32,7 +53,9 @@ const Contact = () => {
               <h3 className="contact__card-title">WhatsApp</h3>
               <span className="contact__card-data">(48) 99999-4692</span>
 
-              <a href="https://wa.me/5548999994692" className="contact__button">
+              <a href="https://wa.me/5548999994692" 
+              target="_blank" 
+              className="contact__button">
                 Me envie uma mensagem {" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -44,7 +67,8 @@ const Contact = () => {
               <h3 className="contact__card-title">Telegram</h3>
               <span className="contact__card-data">(48) 99999-4692</span>
 
-              <a href="https://t.me/Mateusbrbza" className="contact__button">
+              <a href="https://t.me/Mateusbrbza" target="_blank"
+               className="contact__button">
                 Me envie uma mensagem {" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -54,14 +78,14 @@ const Contact = () => {
 
         <div className="contact__content">
           <h3 className="contact__title">
-            Escreva para mim sobre seu projeto
+            Me escreva sobre seu projeto
           </h3>
 
-          <form className="contact__form">
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Nome</label>
               <input type="text" name="name" 
-              className="contact_form-input"
+              className="contact__form-input"
               placeholder="Insira seu nome"
               />
             </div>
@@ -69,15 +93,15 @@ const Contact = () => {
             <div className="contact__form-div">
               <label className="contact__form-tag">Email</label>
               <input type="email" name="email" 
-              className="contact_form-input"
+              className="contact__form-input"
               placeholder="Insira seu email"
               />
             </div>
 
-            <div className="contact__form-div">
+            <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Projeto</label>
               <textarea name="project" cols="30" rows="10"
-              className="contact_form-input"
+              className="contact__form-input"
               placeholder="Escreva seu projeto"
               >
 
