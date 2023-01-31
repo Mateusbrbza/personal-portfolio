@@ -83,7 +83,6 @@ const Data = () => {
                   ></path>
             </svg>
         </a>
-        
     </div>
   )
 }
