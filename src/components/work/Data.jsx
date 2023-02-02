@@ -1,31 +1,29 @@
 import work1 from "../../assets/work1.jpg";
-import work2 from "../../assets/work2.jpg";
-import work3 from "../../assets/work3.jpg";
 
 export const projectsData = [
     {
         id: 1,
         image: work1,
         title: 'e-gym',
-        category: 'web',
+        category: 'todos',
     },
     {
         id: 1,
-        image: work2,
+        image: work1,
         title: 'netflix-clone',
-        category: 'web',
+        category: 'todos',
     },
     {
         id: 1,
-        image: work3,
+        image: work1,
         title: 'adm-dashboard',
-        category: 'web',
+        category: 'todos',
     },
 ];
 
 export const projectsNav = [
     {
-        name: 'all',
+        name: 'todos',
     },
     {
         name: 'web',
