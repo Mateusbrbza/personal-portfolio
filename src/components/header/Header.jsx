@@ -89,7 +89,7 @@ const Header = () => {
                         ? "nav__link active-link"
                         : "nav__link"
                         }>
-                            <i className="uil uil-scenery nav__icon"></i> 
+                            <i className="uil uil-constructor nav__icon"></i> 
                             Projetos
                         </a>
                     </li>
