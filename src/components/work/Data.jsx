@@ -5,21 +5,23 @@ export const projectsData = [
         id: 1,
         image: work1,
         title: 'e-gym',
-        category: 'todos',
+        category: 'web',
     },
     {
         id: 1,
         image: work1,
         title: 'netflix-clone',
-        category: 'todos',
+        category: 'web',
     },
     {
         id: 1,
         image: work1,
         title: 'adm-dashboard',
-        category: 'todos',
+        category: 'web',
     },
 ];
+
+// filtros de name serão utilizados somente quando houver mais projetos
 
 export const projectsNav = [
     {
@@ -29,6 +31,6 @@ export const projectsNav = [
         name: 'web',
     },
     {
-        name: 'design',
+        name: 'app',
     },
 ];
