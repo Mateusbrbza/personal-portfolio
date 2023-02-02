@@ -59,13 +59,13 @@ const Backend = () => {
                     </div>
                 </div>
 
-                <div className="skills__data">
+                {/* <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
-                        <h3 className="skills__name">MySQL</h3>
+                        <h3 className="skills__name">MySQL Server</h3>
                         <span className="skills__level">Básico</span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

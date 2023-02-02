@@ -38,7 +38,7 @@ const Footer = () => {
             </a>
             </div>
 
-            <span className="footer__copy">&#169; Feito por Mateus Barboza</span>
+            <span className="footer__copy">&#169; Criado por Mateus Barboza</span>
         </div>
     </footer>
   )
