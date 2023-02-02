@@ -1,22 +1,28 @@
 import work1 from "../../assets/work1.jpg";
+import work2 from "../../assets/work2.jpeg";
+import work3 from "../../assets/work3.jpeg";
+import work5 from "../../assets/work5.jpeg";
 
 export const projectsData = [
     {
         id: 1,
-        image: work1,
+        image: work3,
         title: 'e-gym',
+        link: 'https://exercism-gym.netlify.app',
         category: 'web',
     },
     {
         id: 1,
-        image: work1,
-        title: 'netflix-clone',
+        image: work5,
+        title: 'Netflix Clone',
+        link: 'https://reactflix-clone.netlify.app',
         category: 'web',
     },
     {
         id: 1,
-        image: work1,
-        title: 'adm-dashboard',
+        image: work2,
+        title: 'Admin Dashboard',
+        link: 'https://adm-dashboard.netlify.app',
         category: 'web',
     },
 ];
