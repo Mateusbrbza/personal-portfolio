@@ -51,14 +51,14 @@ const Services = () => {
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de páginas Web.
+                                Design de páginas Web.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de aplicativos Mobile.
+                                Design de aplicativos Mobile.
                             </p>
                         </li>
 
