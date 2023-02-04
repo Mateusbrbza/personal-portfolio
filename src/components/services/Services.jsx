@@ -124,13 +124,6 @@ const Services = () => {
                                 Desenvolvimento de aplicativos Mobile.
                             </p>
                         </li>
-
-                        {/* <li className="services__modal-service">
-                            <i className="uil uil-check-circle services__modal-icon"></i>
-                            <p className="services__modal-info">
-                                Desen da experiência de interface para o usuário.
-                            </p>
-                        </li> */}
                     </ul>
                 </div>
             </div>
