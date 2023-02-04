@@ -18,7 +18,7 @@ const Services = () => {
             <div>
                 <i className="uil uil-web-grid services__icon"></i>
                 <h3 className="services__title"
-                >Desenvolvedor <br /> de UI/UX
+                >UI/UX <br /> Designer
                 </h3>
             </div>
 
@@ -34,7 +34,7 @@ const Services = () => {
                     <i onClick={() => toggleTab(0)}
                      className="uil uil-times services__modal-close"></i>
 
-                    <h3 className="services__modal-title">UI/UX Developer</h3>
+                    <h3 className="services__modal-title">UI/UX Designer</h3>
                     <p className="services__modal-description">
                         Providenciando trabalho de qualidade 
                         para clientes e empresas.
@@ -44,7 +44,7 @@ const Services = () => {
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de interfaces para o usuário.
+                                Criação de interfaces para websites e aplicativos.
                             </p>
                         </li>
 
@@ -65,7 +65,7 @@ const Services = () => {
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Faço o Design de experiência do usuário.
+                                Design de experiência do usuário.
                             </p>
                         </li>
                     </ul>
@@ -125,12 +125,12 @@ const Services = () => {
                             </p>
                         </li>
 
-                        <li className="services__modal-service">
+                        {/* <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Design da experiência de interface para o usuário.
+                                Desen da experiência de interface para o usuário.
                             </p>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
