@@ -8,8 +8,8 @@ export const projectsData = [
     {
         id: 1,
         image: work6,
-        title: 'Portfolio',
-        link: 'https://portfolio-mateus-example.netlify.app',
+        title: 'Ecommerce',
+        link: 'https://encantali-prototype.netlify.app',
         category: 'web',
     },
     {
