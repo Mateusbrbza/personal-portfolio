@@ -56,10 +56,10 @@ const Data = () => {
         </svg>
         </h1>
         <h3 className="home__subtitle">
-            Desenvolvedor Frontend
+            Desenvolvedor Web
         </h3>
         <p className="home__description">
-          Graduando em Análise e Desenvolvimento de Sistemas, 
+          Graduando em Análise e Desenvolvimento de Sistemas, Freelancer,
           apaixonado por programação e UI/UX Design. 
         </p>
 

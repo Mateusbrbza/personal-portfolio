@@ -122,11 +122,29 @@ const Qualification = () => {
           ? "qualification__content qualification__content-active"
           : "qualification__content"
           }>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Desenvolvedor WEB</h3>
+                <span className="span qualification__subtitle">Freelance</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 01/2023 - Presente
+                </div>
+              </div>
+            </div>
+
             <div className="qualification__data">
 
               <div>
                 <h3 className="qualification__title">
-                  Suporte Técnico
+                  Analista de Suporte Técnico
                 </h3>
                 <span className="span qualification__subtitle">Tdsoft Media Technology</span>
                 <div className="qualification__calender">
@@ -138,7 +156,6 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-
             </div>
 
             {/* <div className="qualfication__data">

@@ -18,10 +18,10 @@ const About = () => {
 
           <p className="about__description">
             Estou estudando desenvolvimento web e mobile há um ano,
-            utilizando React como Framework dentre outras ferramentas para 
-            o Frontend e Web Design. <br />
-            Atualmente estou trabalhando como freelancer e estou procurando emprego
-            como Desenvolvedor. 
+            utilizando React e Node como bibliotecas dentre outros frameworks para 
+            o Frontend e Backend. <br />
+            Atualmente trabalhando como freelancer e aberto a trabalho
+            como Desenvolvedor web ou mobile. 
           </p>
 
           <a download="" href={CV} className="button button--flex">

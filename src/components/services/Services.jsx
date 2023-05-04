@@ -18,7 +18,7 @@ const Services = () => {
             <div>
                 <i className="uil uil-web-grid services__icon"></i>
                 <h3 className="services__title"
-                >UI/UX <br /> Designer
+                >Desenvolvedor <br /> Frontend
                 </h3>
             </div>
 
@@ -34,7 +34,7 @@ const Services = () => {
                     <i onClick={() => toggleTab(0)}
                      className="uil uil-times services__modal-close"></i>
 
-                    <h3 className="services__modal-title">UI/UX Designer</h3>
+                    <h3 className="services__modal-title">Desenvolvedor Frontend</h3>
                     <p className="services__modal-description">
                         Providenciando trabalho de qualidade 
                         para clientes e empresas.
@@ -44,28 +44,21 @@ const Services = () => {
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Criação de interfaces para websites e aplicativos.
+                                Desenvolvimento de interfaces para websites e aplicativos mobile.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Design de páginas Web.
+                                Design de interfaces para aplicações Web e mobile.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Design de aplicativos Mobile.
-                            </p>
-                        </li>
-
-                        <li className="services__modal-service">
-                            <i className="uil uil-check-circle services__modal-icon"></i>
-                            <p className="services__modal-info">
-                                Design de experiência do usuário.
+                                Criação de codigos limpos e acessíveis que satisfaçam as necessidades do usuário.
                             </p>
                         </li>
                     </ul>
@@ -77,7 +70,7 @@ const Services = () => {
             <div>
                 <i className="uil uil-arrow services__icon"></i>
                 <h3 className="services__title">
-                    Desenvolvedor <br /> Frontend
+                    Desenvolvedor <br /> Backend
                 </h3>
             </div>
 
@@ -96,7 +89,7 @@ const Services = () => {
                     className="uil uil-times services__modal-close"></i>
 
                     <h3 className="services__modal-title">
-                        Desenvolvedor Frontend
+                        Desenvolvedor Backend
                     </h3>
                     <p className="services__modal-description">
                         Providenciando trabalho de qualidade 
@@ -107,78 +100,28 @@ const Services = () => {
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de interfaces para o usuário.
+                                Desenvolvimento de servidores remotos utilizando MongoDB e Firebase.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de páginas Web.
+                                Desenvolvimento de APIs RESTful utilizando NodeJS.
                             </p>
                         </li>
 
                         <li className="services__modal-service">
                             <i className="uil uil-check-circle services__modal-icon"></i>
                             <p className="services__modal-info">
-                                Desenvolvimento de aplicativos Mobile.
+                                Autenticação e encriptação para proteger o bancos de dados e informações do usuário.
                             </p>
                         </li>
+
                     </ul>
                 </div>
             </div>
         </div>
-
-        {/* desenvolvimento backend */}
-        {/* <div className="services__container container grid">
-            <div>
-                <i className="uil uil-edit services__icon"></i>
-                <h3 className="services__title">
-                    Desenvolvedor <br />
-                    Backend
-                </h3>
-            </div>
-
-            <span className="services__button">
-            Ver Mais
-            <i className="uil uil-arrow-right services__button-icon"></i>
-            </span>
-
-            <div className="services__modal">
-                <div className="services__modal-content">
-                    <i className="uil uil-times services__modal-close"></i>
-
-                    <h3 className="services__modal-title"></h3>
-                    <p className="services__modal-description">
-                        Providenciando trabalho de qualidade 
-                        para clientes e empresas.
-                    </p>
-
-                    <ul className="services__modal-services grid">
-                        <li className="services__modal-service">
-                            <i className="uil uil-check-circle services__modal-icon"></i>
-                            <p className="services__modal-info">
-                                Desenvolvimento de banco de dados em nuvem.
-                            </p>
-                        </li>
-
-                        <li className="services__modal-service">
-                            <i className="uil uil-check-circle services__modal-icon"></i>
-                            <p className="services__modal-info">
-                                Criacao de servicos na pagina web ou mobile.
-                            </p>
-                        </li>
-
-                        <li className="services__modal-service">
-                            <i className="uil uil-check-circle services__modal-icon"></i>
-                            <p className="services__modal-info">
-                                Criacao de banco de dados para administrador.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div> */}
         </div>
     </section>
   )

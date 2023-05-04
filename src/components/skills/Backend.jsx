@@ -32,6 +32,14 @@ const Backend = () => {
                     </div>
                 </div>
 
+                <div className="skills__data">
+                    <i class='bx bx-badge-check' ></i>
+                    <div>
+                        <h3 className="skills__name">NestJS</h3>
+                        <span className="skills__level">Básico</span>
+                    </div>
+                </div>
+
                 
             </div>
 
@@ -41,7 +49,7 @@ const Backend = () => {
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">Express</h3>
-                        <span className="skills__level">Básico</span>
+                        <span className="skills__level">Intermediário</span>
                     </div>
                 </div>
                 
@@ -49,7 +57,7 @@ const Backend = () => {
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">Firebase</h3>
-                        <span className="skills__level">Intermediário</span>
+                        <span className="skills__level">Básico</span>
                     </div>
                 </div>
 
@@ -57,17 +65,17 @@ const Backend = () => {
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">Node</h3>
-                        <span className="skills__level">Básico</span>
+                        <span className="skills__level">Intermediário</span>
                     </div>
                 </div>
 
-                {/* <div className="skills__data">
+                <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
-                        <h3 className="skills__name">MySQL Server</h3>
+                        <h3 className="skills__name">Prisma</h3>
                         <span className="skills__level">Básico</span>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     </div>
