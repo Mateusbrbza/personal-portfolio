@@ -4,12 +4,12 @@ import { projectsNav } from './Data';
 import WorksItems from './WorksItems';
 
 const Works = () => {
-    const [item, setItem] = useState({name: 'all'});
+    const [item, setItem] = useState({name: 'todos'});
     const [projects, setProjects] = useState([]);
     const [active, setActive] = useState(0);
 
     useEffect(() => {
-        if(item.name === 'all') {
+        if(item.name === 'todos') {
             setProjects(projectsData);
         }
         else {
@@ -21,27 +21,27 @@ const Works = () => {
     }, [item]);
 
     const handleClick = (e, index) => {
-        setItem({name: e.target.textContent});
+        setItem({ name: e.target.textContent });
+        setActive(index);
     }
 
   return (
-    // utilizar filtros somente quando houver mais projetos fora do escopo web
     <div>
-        {/* <div className="work__filters">
+        <div className="work__filters">
         {projectsNav.map((item, index) => {
             return (
                 <span 
                 onClick={(e) => {
                 handleClick(e, index);
                 }} 
-                className="work__item" 
+                className={`${active === index ? 'active-work' : '' } work__item `}
                 key={index}
                 >
                     {item.name}
                 </span>
             );
         })}
-    </div> */}
+    </div>
 
     <div className="work__container container grid">
         {projects.map((item) => {

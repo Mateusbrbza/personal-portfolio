@@ -1,10 +1,10 @@
-/* .work__filters {
+ .work__filters {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 0.75rem;
     margin-bottom: var(--mb-2);
-} */
+}
 
 .work__item {
     cursor: pointer;
@@ -62,6 +62,11 @@
 
 .work__button:hover .work__button-icon {
     transform: translateX(0.25rem);
+}
+
+.active-work {
+    background-color: var(--title-color);
+    color: var(--container-color);
 }
 
 /* breakpoints */
