@@ -8,7 +8,7 @@ const Info = () => {
         <i class='bx bx-award about__icon'></i>
 
             <h3 className="about__title">Experiencia</h3>
-            <span className="about__subtitle">1+ ano como freelancer</span>
+            <span className="about__subtitle">Um ano e meio como dev</span>
         </div>
         </a>
 
@@ -17,7 +17,7 @@ const Info = () => {
         <i class='bx bx-briefcase about__icon' ></i>
 
             <h3 className="about__title">Projetos</h3>
-            <span className="about__subtitle">5+ projetos desenvolvidos</span>
+            <span className="about__subtitle">Mais de 4 projetos em web e mobile</span>
         </div>
         </a>
 

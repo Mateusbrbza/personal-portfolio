@@ -12,7 +12,7 @@ const Backend = () => {
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">MySQL</h3>
-                        <span className="skills__level">Básico</span>
+                        <span className="skills__level">Intermediario</span>
                     </div>
                 </div>
 
@@ -36,7 +36,7 @@ const Backend = () => {
                     <i class='bx bx-badge-check' ></i>
                     <div>
                         <h3 className="skills__name">NestJS</h3>
-                        <span className="skills__level">Básico</span>
+                        <span className="skills__level">Intermediário</span>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ const Backend = () => {
                 <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
-                        <h3 className="skills__name">Express</h3>
+                        <h3 className="skills__name">Node</h3>
                         <span className="skills__level">Intermediário</span>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Backend = () => {
                 <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
-                        <h3 className="skills__name">Firebase</h3>
+                        <h3 className="skills__name">Jenkins</h3>
                         <span className="skills__level">Básico</span>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const Backend = () => {
                 <div className="skills__data">
                     <i class='bx bx-badge-check' ></i>
                     <div>
-                        <h3 className="skills__name">Prisma</h3>
+                        <h3 className="skills__name">AWS</h3>
                         <span className="skills__level">Básico</span>
                     </div>
                 </div>

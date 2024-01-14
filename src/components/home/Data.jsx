@@ -56,11 +56,10 @@ const Data = () => {
         </svg>
         </h1>
         <h3 className="home__subtitle">
-            Desenvolvedor Web
+            Desenvolvedor Fullstack
         </h3>
         <p className="home__description">
-          Graduando em Análise e Desenvolvimento de Sistemas, Freelancer,
-          apaixonado por programação e UI/UX Design. 
+          Graduando em Análise e Desenvolvimento de Sistemas, possuo experiência com React, Node e TypeScript.
         </p>
 
         <a href="#contact" className="button button--flex">

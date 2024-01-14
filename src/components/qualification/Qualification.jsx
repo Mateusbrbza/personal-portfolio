@@ -42,6 +42,24 @@ const Qualification = () => {
           ? "qualification__content qualification__content-active"
           : "qualification__content"
           }>
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  JStack
+                  </h3>
+                <span className="span qualification__subtitle">Dev Academy</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 06/2023 - Presente
+                </div>
+              </div>
+            </div>
 
             <div className="qualification__data">
 
@@ -122,6 +140,23 @@ const Qualification = () => {
           ? "qualification__content qualification__content-active"
           : "qualification__content"
           }>
+            <div className="qualification__data">
+
+            <div>
+              <h3 className="qualification__title">
+                Desenvolvedor Fullstack
+              </h3>
+              <span className="span qualification__subtitle">Tdsoft Media Technology</span>
+              <div className="qualification__calender">
+                <i className="uil uil-calendar-alt"></i> 01/2023 - Presente
+              </div>
+            </div>
+
+            <div>
+              <span className="qualification__rounder"></span>
+              <span className="qualification__line"></span>
+            </div>
+            </div>
 
             <div className="qualification__data">
               <div></div>
@@ -135,7 +170,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Desenvolvedor WEB</h3>
                 <span className="span qualification__subtitle">Freelance</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 01/2023 - Presente
+                  <i className="uil uil-calendar-alt"></i> 09/2022 - 11/2023
                 </div>
               </div>
             </div>
@@ -148,7 +183,7 @@ const Qualification = () => {
                 </h3>
                 <span className="span qualification__subtitle">Tdsoft Media Technology</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 05/2021 - Presente
+                  <i className="uil uil-calendar-alt"></i> 05/2021 - 01/2023
                 </div>
               </div>
 
@@ -157,43 +192,6 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-
-            {/* <div className="qualfication__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">The Web Developer Bootcamp</h3>
-                <span className="span qualification__subtitle">Udemy</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 01/2022 - 06/2022
-                </div>
-              </div>
-            </div>
-
-             <div className="qualfication__data">
-
-              <div>
-                <h3 className="qualification__title">
-                  Trilha Especializar do Discover
-                </h3>
-                <span className="span qualification__subtitle">Rocketseat</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 06/2022 - 07/2022
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-            </div> */}
-
           </div>
         </div>
       </div>
